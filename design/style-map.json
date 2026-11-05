@@ -1,0 +1,36 @@
+{
+  "name": "patternlanguage-minimal-pixel",
+  "reference": "https://patternlanguage.cc/",
+  "description": "Clean, readable minimalist design inspired by patternlanguage.cc with pixel-style accent fonts.",
+  "userPreferences": {
+    "minimalism": "clean and readable",
+    "bodyFonts": "pleasant and readable",
+    "accentFonts": "pixel/code style"
+  },
+  "colors": {
+    "mode": "dark",
+    "light": "#161618",
+    "lightgray": "#393639",
+    "gray": "#646464",
+    "darkgray": "#d4d4d4",
+    "dark": "#ebebec",
+    "secondary": "#7b97aa",
+    "tertiary": "#84a59d",
+    "highlight": "rgba(143,159,169,0.15)",
+    "textHighlight": "#b3aa0288"
+  },
+  "typography": {
+    "header": "Pixelify Sans",
+    "body": "Mate",
+    "code": "IBM Plex Mono",
+    "origin": "googleFonts"
+  },
+  "layout": {
+    "spacing": "comfortable",
+    "maxWidth": "720px",
+    "sidebar": true,
+    "graph": true,
+    "search": true
+  },
+  "notes": "Patternlanguage.cc uses Mate (body), Questrial (header), IBM Plex Mono (code). User requested pixel-style accent fonts, so header switched to VT323. Body remains readable (Mate)."
+}

@@ -110,6 +110,10 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      header: Pixelify Sans
+      body: Mate
+      code: IBM Plex Mono
   - source: "@quartz-themes/core"
     enabled: true
     options:

@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Pixelify Sans
-      body: Mate
+      header: Schibsted Grotesk
+      body: Source Sans Pro
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -111,14 +111,14 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
     options:
-      header: Pixelify Sans
-      body: Mate
+      header: Schibsted Grotesk
+      body: Source Sans Pro
       code: IBM Plex Mono
   - source: "@quartz-themes/core"
     enabled: true
     options:
       theme: default
-      mode: both
+      mode: dark
   - source: "@quartz-community/remove-draft"
     enabled: true
   - source: "@quartz-community/explicit-publish"

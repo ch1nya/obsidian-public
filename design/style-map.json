@@ -1,12 +1,7 @@
 {
-  "name": "patternlanguage-minimal-pixel",
-  "reference": "https://patternlanguage.cc/",
-  "description": "Clean, readable minimalist design inspired by patternlanguage.cc with pixel-style accent fonts.",
-  "userPreferences": {
-    "minimalism": "clean and readable",
-    "bodyFonts": "pleasant and readable",
-    "accentFonts": "pixel/code style"
-  },
+  "name": "quartz-jzhao-xyz",
+  "reference": "https://quartz.jzhao.xyz/",
+  "description": "1:1 visual style of quartz.jzhao.xyz — dark minimalist, Schibsted Grotesk / Source Sans Pro / IBM Plex Mono.",
   "colors": {
     "mode": "dark",
     "light": "#161618",
@@ -20,17 +15,15 @@
     "textHighlight": "#b3aa0288"
   },
   "typography": {
-    "header": "Pixelify Sans",
-    "body": "Mate",
+    "header": "Schibsted Grotesk",
+    "body": "Source Sans Pro",
     "code": "IBM Plex Mono",
     "origin": "googleFonts"
   },
   "layout": {
-    "spacing": "comfortable",
     "maxWidth": "720px",
     "sidebar": true,
     "graph": true,
     "search": true
-  },
-  "notes": "Patternlanguage.cc uses Mate (body), Questrial (header), IBM Plex Mono (code). User requested pixel-style accent fonts, so header switched to VT323. Body remains readable (Mate)."
+  }
 }

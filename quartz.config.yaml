@@ -1,13 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Public Notes
+  pageTitle: ~/ch1nya/brain
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
+  analytics: null
   locale: ru-RU
-  baseUrl: ch1nya.github.io/obsidian-public
+  baseUrl: example.github.io/brain
   ignorePatterns:
     - private
     - templates
@@ -16,35 +15,35 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: Inter
+      body: Inter
+      code: JetBrains Mono
     colors:
       lightMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#f6f8fb"
+        lightgray: "#dde4ee"
+        gray: "#8a97a8"
+        darkgray: "#3b4757"
+        dark: "#1f2a37"
+        secondary: "#2323eb"
+        tertiary: "#5a5af0"
+        highlight: rgba(35, 35, 235, 0.08)
+        textHighlight: "#2323eb22"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#0d1117"
+        lightgray: "#1f2a35"
+        gray: "#6b7a8c"
+        darkgray: "#cfd8e3"
+        dark: "#e6edf5"
+        secondary: "#8a8aff"
+        tertiary: "#b4b4ff"
+        highlight: rgba(35, 35, 235, 0.18)
+        textHighlight: "#2323eb55"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
-      defaultDateType: modified
+      defaultDateType: created
       priority:
         - frontmatter
         - git
@@ -111,9 +110,9 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
     options:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: Inter
+      body: Inter
+      code: JetBrains Mono
   - source: "@quartz-themes/core"
     enabled: false
   - source: "@quartz-community/remove-draft"

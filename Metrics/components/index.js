@@ -1,7 +1,9 @@
 import { h } from "preact"
 
 function isRealNote(slug) {
-  if (!slug || slug === "index") return false
+  if (!slug) return false
+  if (slug === "index" || slug === "404") return false
+  if (slug.endsWith("/index")) return false
   if (slug.startsWith("tags/") || slug.startsWith("folders/")) return false
   return true
 }

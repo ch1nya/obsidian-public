@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: ru-RU
-  baseUrl: example.github.io/brain
+  baseUrl: ch1nya.github.io/obsidian-public
   ignorePatterns:
     - private
     - templates

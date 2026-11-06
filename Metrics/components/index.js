@@ -150,7 +150,7 @@ const MetricsComponent = (props) => {
       h("h3", null, "Хабы (по входящим ссылкам)"),
       ...hubsList.map((hb) =>
         h("div", { class: "hub-row" }, [
-          h("a", { href: "/" + hb.slug, class: "internal" }, hb.title),
+          h("a", { href: "./" + hb.slug, class: "internal" }, hb.title),
           h("span", { class: "hub-count" }, String(hb.count)),
         ]),
       ),
@@ -165,13 +165,13 @@ const MetricsComponent = (props) => {
       h("h3", null, "Недавние"),
       ...recent.map((n) =>
         h("div", { class: "recent-row" }, [
-          h("a", { href: "/" + n.slug, class: "internal" }, n.frontmatter?.title ?? n.slug),
+          h("a", { href: "./" + n.slug, class: "internal" }, n.frontmatter?.title ?? n.slug),
         ]),
       ),
     ]),
     rnd ? h("div", { class: "metrics-section" }, [
       h("h3", null, "Случайная заметка"),
-      h("a", { href: "/" + rnd.slug, class: "internal" }, rnd.frontmatter?.title ?? rnd.slug),
+      h("a", { href: "./" + rnd.slug, class: "internal" }, rnd.frontmatter?.title ?? rnd.slug),
     ]) : null,
   ])
 }

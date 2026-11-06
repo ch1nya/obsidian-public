@@ -212,12 +212,11 @@ plugins:
       position: left
       priority: 35
       group: toolbar
-  - source: "@quartz-community/breadcrumbs"
+  - source: "./Metrics"
     enabled: true
     layout:
       position: beforeBody
       priority: 5
-      condition: not-index
   - source: "@quartz-community/comments"
     enabled: false
     options:

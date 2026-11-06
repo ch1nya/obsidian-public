@@ -1,0 +1,28 @@
+{
+  "name": "Metrics",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components/index.js"
+  },
+  "quartz": {
+    "name": "Metrics",
+    "displayName": "Metrics",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "components": {
+      "Metrics": {
+        "displayName": "Metrics",
+        "defaultPosition": "beforeBody",
+        "defaultPriority": 5
+      }
+    }
+  }
+}
